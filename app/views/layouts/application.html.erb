@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Illuminate</title>
+  <%= stylesheet_link_tag "application", "layout", "cart", :media => "all" %>
+  <%= javascript_include_tag :application %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<img alt="full screen background image" src="assets/plain.jpeg" id="background-image" /> 
+	<div id="head_content">
+    	<h2 id="app_title"><a href="/ihp_blanks_alert_tool" class="ihp_link">Cart Tool</a></h2>
+	    <div id="page_login_content">
+	      <span id="username">Logged in as Venkat</span>
+	      <a href="/logout" id="logout"> Log Out</a>
+	    </div>	    
+  	</div>
+	<div id="content">
+		<%= yield %>
+	</div>
+</body>
+</html>

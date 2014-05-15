@@ -1,0 +1,40 @@
+#head_content{
+	height:10%;
+	width:100%;
+
+}
+
+#app_title{
+	float:left;
+}
+
+#page_login_content{
+	float: right;
+    margin-top: 1%;
+    width: 22%;
+}
+
+#username{
+	margin-right:28%;
+}
+
+#background-image{
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ihp_link{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+#logout{
+	text-decoration: none;
+	color:#FFFFFF;
+}
