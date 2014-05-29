@@ -1,7 +1,7 @@
 class MainController < ApplicationController
 
 	def index
-		p "hi"
+		p "hello"
 	end	
 
 end
