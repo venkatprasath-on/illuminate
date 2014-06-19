@@ -6,6 +6,7 @@ gem 'rails', '4.0.5'
 
 group :development, :test do
   gem 'mysql'
+  gem 'sqllite'	
   gem 'rspec-rails', '2.13.1'
 end
 
